@@ -26,7 +26,7 @@ public class HomeWork2 {
         double Tax = 0.2;
         int Quantity = 3;
         double Sum = 0;
-        double total = 0;
+        double total = Price + Tax * Quantity + Sum;
         // print out values assigned to the variables
         System.out.println(Price);
         System.out.println(Tax);
