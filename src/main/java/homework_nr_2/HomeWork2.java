@@ -32,7 +32,6 @@ public class HomeWork2 {
         System.out.println(Tax);
         System.out.println(Quantity);
         System.out.println(Sum);
-        total = Price + Tax * Quantity + Sum;
         System.out.println(total);
         // System.out.println("End step 6");
         System.out.println("------------");
