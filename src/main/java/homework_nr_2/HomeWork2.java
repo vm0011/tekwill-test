@@ -11,7 +11,7 @@ public class HomeWork2 {
         int CarsProducedThisYear = 55235358;
         char FirstLetterInAlphabet = 'A';
         boolean JavaIsAmazing = true;
-        float Pi = 3.14159f; // error delimiter in slack was (comma) ",", but was expected (dot/point) "."
+        float Pi = 3.14159f; // error delimiter in Slack was (comma) ",", but was expected (dot/point) "."
         // print out values assigned to the variables
         System.out.println(CurrentWorldPopulation);
         System.out.println(CarsProducedThisYear);
