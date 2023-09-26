@@ -1,6 +1,6 @@
 package homework_nr_7;
 
-public abstract class Employee extends Person{
+public abstract class Employee extends Person {
     String companyName;
 
     public Employee(String name, String surname, String companyName) {
@@ -8,5 +8,5 @@ public abstract class Employee extends Person{
         this.companyName = companyName;
     }
 
-    public abstract  void work();
+    public abstract void work();
 }

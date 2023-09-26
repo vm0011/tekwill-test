@@ -1,16 +1,15 @@
 package homework_nr_7;
 
 public abstract class Person {
-    String name;
+    static String name;
+    static String surname;
 
     public Person(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
+        Person.name = name;
+        Person.surname = surname;
     }
 
-    String surname;
-
-    public void printMyName(){
+    public void printMyName() {
         System.out.println("My name is: " + name);
     }
 }

@@ -1,6 +1,6 @@
 package homework_nr_7;
 
-public class Programmer extends Employee{
+public class Programmer extends Employee {
     String programmingLanguage;
     int yearsOfExpirience;
 
@@ -11,7 +11,7 @@ public class Programmer extends Employee{
     }
 
     @Override
-    public  void work(){
+    public void work() {
         System.out.println("Programmer is working.");
     }
 }
